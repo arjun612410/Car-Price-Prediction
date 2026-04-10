@@ -5,10 +5,7 @@ from src.exception import CustomException
 from src.logger import logging
 from src.utils import save_obj,evaluate_models
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.ensemble import AdaBoostRegressor
 from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.linear_model import LinearRegression
-from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import r2_score
 
